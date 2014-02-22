@@ -1,0 +1,21 @@
+{
+  "name": "nolla-back",
+  "version": "0.0.1",
+  "description": "Nolla backend, public",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobslaede/nolla-back"
+  },
+  "author": "Jeppe Dyrby",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/bobslaede/nolla-back/issues"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.13.1"
+  }
+}
