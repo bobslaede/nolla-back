@@ -4,7 +4,7 @@
   "description": "Nolla backend, public",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter dot tests",
+    "test": "NODE_ENV=test ./node_modules/.bin/jasmine-node tests",
     "start": "node index.js"
   },
   "repository": {
