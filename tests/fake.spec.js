@@ -5,4 +5,4 @@ describe('fake module', function () {
         expect(true).to.be.true;
         done();
     })
-})
+}) 
