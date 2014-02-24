@@ -13,7 +13,7 @@
   },
   "author": "Jeppe Dyrby",
   "license": "GPL v3",
-  "bugs": {
+  "bugs": { 
     "url": "https://github.com/bobslaede/nolla-back/issues"
   },
   "devDependencies": {
