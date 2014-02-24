@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter dot tests",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -13,13 +13,13 @@
   },
   "author": "Jeppe Dyrby",
   "license": "GPL v3",
-  "bugs": { 
+  "bugs": {
     "url": "https://github.com/bobslaede/nolla-back/issues"
   },
   "devDependencies": {
-    "jasmine-node": "~1.13.1",
     "mocha": "~1.17.1",
-    "chai": "~1.9.0"
+    "chai": "~1.9.0",
+    "supertest": "~0.9.0"
   },
   "dependencies": {
     "restify": "~2.6.1"
